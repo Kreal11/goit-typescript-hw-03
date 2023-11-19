@@ -13,7 +13,7 @@
 // Наприклад, ось так:
 
 abstract class House {
-  protected door: boolean;
+  protected door: boolean = false;
   protected key: Key;
   protected tenants: Person[] = [];
 
